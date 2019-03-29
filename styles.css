@@ -1,0 +1,104 @@
+body {
+  background-color: yellow;
+  border-style: solid;
+  border-width: 5px;
+  border-color: purple;
+}
+h1 {
+  color: purple;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 5em;
+}
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3em;
+}
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+nav {
+  border-style: solid none solid none;
+  border-color: purple;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  background-color: #333;
+}
+nav li {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#dropdown ul {
+  display: none;
+}
+select {
+    display: block; 
+    margin: 0 auto;
+    text-align: center;
+    font-size: 5em;
+    text-transform: uppercase;
+}
+li:hover {
+  background-color: purple;
+  color: black;
+}
+p {
+  padding: 0% 3% 0% 3%;
+}
+
+/* FOR TABLETS & PC */
+@media screen 
+and (min-device-width: 768px) {
+  body {
+    background-color: lightblue;
+    border-color: black;
+  }
+  h1 {
+    color: blue;
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  nav {
+    border-color: black;
+  }
+  nav ul {
+    background-color: white;
+  }
+  nav li {
+    display: inline-block;
+    color: #333;
+  }
+  #dropdown {
+    margin: auto;
+    text-align: center;
+  }
+  #dropdown ul {
+    display: inline-block; 
+    list-style-type: none;
+  }
+  #dropdown li {
+    list-style-type: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  select {
+    display: none; 
+  }
+  li:hover {
+    background-color: blue;
+    color: white;
+  }
+}
